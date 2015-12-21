@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11E43CD17773EB7009D4A2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E43CC17773EB7009D4A2A /* UIKit.framework */; };
+		F11E43CF17773EB7009D4A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E43CE17773EB7009D4A2A /* Foundation.framework */; };
+		F11E43D117773EB7009D4A2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E43D017773EB7009D4A2A /* CoreGraphics.framework */; };
+		F11E43D717773EB7009D4A2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F11E43D517773EB7009D4A2A /* InfoPlist.strings */; };
+		F11E43D917773EB7009D4A2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E43D817773EB7009D4A2A /* main.m */; };
+		F11E43DD17773EB7009D4A2A /* DukeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E43DC17773EB7009D4A2A /* DukeAppDelegate.m */; };
+		F11E43DF17773EB7009D4A2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F11E43DE17773EB7009D4A2A /* Default.png */; };
+		F11E43E117773EB7009D4A2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11E43E017773EB7009D4A2A /* Default@2x.png */; };
+		F11E43E317773EB7009D4A2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11E43E217773EB7009D4A2A /* Default-568h@2x.png */; };
+		F11E43EB17773EC8009D4A2A /* DukeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E43EA17773EC8009D4A2A /* DukeViewController.m */; };
+		F11E43EE17774057009D4A2A /* CoreAnimationEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E43ED17774057009D4A2A /* CoreAnimationEffect.m */; };
+		F11E43F0177740A2009D4A2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E43EF177740A2009D4A2A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11E43C917773EB7009D4A2A /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11E43CC17773EB7009D4A2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F11E43CE17773EB7009D4A2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F11E43D017773EB7009D4A2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F11E43D417773EB7009D4A2A /* CoreAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreAnimation-Info.plist"; sourceTree = "<group>"; };
+		F11E43D617773EB7009D4A2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F11E43D817773EB7009D4A2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F11E43DA17773EB7009D4A2A /* CoreAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		F11E43DB17773EB7009D4A2A /* DukeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DukeAppDelegate.h; sourceTree = "<group>"; };
+		F11E43DC17773EB7009D4A2A /* DukeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DukeAppDelegate.m; sourceTree = "<group>"; };
+		F11E43DE17773EB7009D4A2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F11E43E017773EB7009D4A2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F11E43E217773EB7009D4A2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F11E43E917773EC8009D4A2A /* DukeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DukeViewController.h; path = ../DukeViewController.h; sourceTree = "<group>"; };
+		F11E43EA17773EC8009D4A2A /* DukeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DukeViewController.m; path = ../DukeViewController.m; sourceTree = "<group>"; };
+		F11E43EC17774057009D4A2A /* CoreAnimationEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationEffect.h; sourceTree = "<group>"; };
+		F11E43ED17774057009D4A2A /* CoreAnimationEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationEffect.m; sourceTree = "<group>"; };
+		F11E43EF177740A2009D4A2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11E43C617773EB7009D4A2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E43F0177740A2009D4A2A /* QuartzCore.framework in Frameworks */,
+				F11E43CD17773EB7009D4A2A /* UIKit.framework in Frameworks */,
+				F11E43CF17773EB7009D4A2A /* Foundation.framework in Frameworks */,
+				F11E43D117773EB7009D4A2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11E43C017773EB7009D4A2A = {
+			isa = PBXGroup;
+			children = (
+				F11E43EC17774057009D4A2A /* CoreAnimationEffect.h */,
+				F11E43ED17774057009D4A2A /* CoreAnimationEffect.m */,
+				F11E43D217773EB7009D4A2A /* CoreAnimation */,
+				F11E43CB17773EB7009D4A2A /* Frameworks */,
+				F11E43CA17773EB7009D4A2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11E43CA17773EB7009D4A2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11E43C917773EB7009D4A2A /* CoreAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11E43CB17773EB7009D4A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11E43EF177740A2009D4A2A /* QuartzCore.framework */,
+				F11E43CC17773EB7009D4A2A /* UIKit.framework */,
+				F11E43CE17773EB7009D4A2A /* Foundation.framework */,
+				F11E43D017773EB7009D4A2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F11E43D217773EB7009D4A2A /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F11E43E917773EC8009D4A2A /* DukeViewController.h */,
+				F11E43EA17773EC8009D4A2A /* DukeViewController.m */,
+				F11E43DB17773EB7009D4A2A /* DukeAppDelegate.h */,
+				F11E43DC17773EB7009D4A2A /* DukeAppDelegate.m */,
+				F11E43D317773EB7009D4A2A /* Supporting Files */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		F11E43D317773EB7009D4A2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F11E43D417773EB7009D4A2A /* CoreAnimation-Info.plist */,
+				F11E43D517773EB7009D4A2A /* InfoPlist.strings */,
+				F11E43D817773EB7009D4A2A /* main.m */,
+				F11E43DA17773EB7009D4A2A /* CoreAnimation-Prefix.pch */,
+				F11E43DE17773EB7009D4A2A /* Default.png */,
+				F11E43E017773EB7009D4A2A /* Default@2x.png */,
+				F11E43E217773EB7009D4A2A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11E43C817773EB7009D4A2A /* CoreAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11E43E617773EB7009D4A2A /* Build configuration list for PBXNativeTarget "CoreAnimation" */;
+			buildPhases = (
+				F11E43C517773EB7009D4A2A /* Sources */,
+				F11E43C617773EB7009D4A2A /* Frameworks */,
+				F11E43C717773EB7009D4A2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreAnimation;
+			productName = CoreAnimation;
+			productReference = F11E43C917773EB7009D4A2A /* CoreAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11E43C117773EB7009D4A2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Duke;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Duke;
+			};
+			buildConfigurationList = F11E43C417773EB7009D4A2A /* Build configuration list for PBXProject "CoreAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F11E43C017773EB7009D4A2A;
+			productRefGroup = F11E43CA17773EB7009D4A2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11E43C817773EB7009D4A2A /* CoreAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11E43C717773EB7009D4A2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E43D717773EB7009D4A2A /* InfoPlist.strings in Resources */,
+				F11E43DF17773EB7009D4A2A /* Default.png in Resources */,
+				F11E43E117773EB7009D4A2A /* Default@2x.png in Resources */,
+				F11E43E317773EB7009D4A2A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11E43C517773EB7009D4A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11E43D917773EB7009D4A2A /* main.m in Sources */,
+				F11E43DD17773EB7009D4A2A /* DukeAppDelegate.m in Sources */,
+				F11E43EB17773EC8009D4A2A /* DukeViewController.m in Sources */,
+				F11E43EE17774057009D4A2A /* CoreAnimationEffect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F11E43D517773EB7009D4A2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11E43D617773EB7009D4A2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11E43E417773EB7009D4A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F11E43E517773EB7009D4A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11E43E717773EB7009D4A2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreAnimation/CoreAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreAnimation/CoreAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F11E43E817773EB7009D4A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreAnimation/CoreAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreAnimation/CoreAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11E43C417773EB7009D4A2A /* Build configuration list for PBXProject "CoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11E43E417773EB7009D4A2A /* Debug */,
+				F11E43E517773EB7009D4A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11E43E617773EB7009D4A2A /* Build configuration list for PBXNativeTarget "CoreAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11E43E717773EB7009D4A2A /* Debug */,
+				F11E43E817773EB7009D4A2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11E43C117773EB7009D4A2A /* Project object */;
+}
